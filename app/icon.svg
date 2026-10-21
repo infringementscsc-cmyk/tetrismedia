@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="ropi-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="50%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+    <linearGradient id="play-fill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0.85" />
+    </linearGradient>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#121420" />
+      <stop offset="100%" stop-color="#07080e" />
+    </linearGradient>
+    <linearGradient id="border-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#EC4899" stop-opacity="0.6" />
+    </linearGradient>
+  </defs>
+
+  <!-- Dark glass badge background -->
+  <rect width="32" height="32" rx="7.5" fill="url(#bg-grad)" />
+  <rect x="0.6" y="0.6" width="30.8" height="30.8" rx="7" fill="none" stroke="url(#border-glow)" stroke-width="1.2" />
+
+  <!-- R-Mark geometric path -->
+  <path
+    d="M7.5 5.5 h8.5 c4.2 0 7.2 2.6 7.2 6.5 c0 2.8 -1.8 5.1 -4.4 6.1 l4.8 7.9 h-4 l-4.2 -7 h-3.9 v7 h-4 z"
+    fill="none"
+    stroke="url(#ropi-grad)"
+    stroke-width="2.2"
+    stroke-linejoin="round"
+    stroke-linecap="round"
+  />
+
+  <!-- Nested Play Triangle -->
+  <polygon
+    points="11.5,8.8 17.5,12 11.5,15.2"
+    fill="url(#play-fill)"
+    stroke="#00F0FF"
+    stroke-width="0.8"
+    stroke-linejoin="round"
+  />
+</svg>
